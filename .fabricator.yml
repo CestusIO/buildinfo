@@ -1,9 +1,13 @@
 apiVersion: fabricator.cestus.io/v1alpha1
 kind: Config
 components:
-  - name: "buildinfo"
+  - name: buildinfo
+    generator: fabricator-generate-go
+    spec:
+      packageName: buildinfo
+  - name: buildinfo
     generator: fabricator-generate-project-go
     spec:
       goModule: code.cestus.io/libs/buildinfo
-      repoURL: https://gitlab.com/cestus/libs/buildinfo
+      repoURL: https://github.com/CestusIO/buildinfo
       isLib: true

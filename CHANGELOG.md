@@ -5,10 +5,18 @@ This CHANGELOG is a format conforming to [keep-a-changelog](https://github.com/o
 It is generated with git-chglog -o CHANGELOG.md
 
 
+<a name="unreleased"></a>
+## [unreleased](https://github.com/CestusIO/buildinfo/compare/v0.0.1...unreleased)
+
+### Features
+
+* switch to fork of wire
+
+
 <a name="v0.0.1"></a>
 ## v0.0.1
 
-### Feat
+### Features
 
 * add buildinfo package
 
