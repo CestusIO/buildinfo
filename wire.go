@@ -5,7 +5,7 @@
 
 package buildinfo
 
-import "code.cestus.io/tools/wire"
+import "github.com/google/wire"
 
 // ZapperLogProviderSet provides a zap logger
 var BuildInfoProviderSet = wire.NewSet(
